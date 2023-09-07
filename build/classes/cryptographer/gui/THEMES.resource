@@ -1,0 +1,3 @@
+-(name:blue)-(display:Blue)-(file:blueTheme.css)[def]
+-(name:dark)-(display:Dark)-(file:darkTheme.css)
+-(name:light)-(display:Light)-(file:lightTheme.css)

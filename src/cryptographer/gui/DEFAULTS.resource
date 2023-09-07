@@ -1,0 +1,6 @@
+(theme:blue)
+(font:System)
+(encryption:binaries)
+(key:false)
+(dashboard:true)
+(close-dialog:true)

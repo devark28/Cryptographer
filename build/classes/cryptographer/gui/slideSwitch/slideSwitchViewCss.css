@@ -1,0 +1,20 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 19, 2020, 6:15:44 PM
+    Author     : PC
+*/
+
+.slide-switch-view {
+    -fx-background-color: #9B9B9B;
+    -fx-background-radius: 2;
+}
+
+.slider {
+    -fx-background-color: #676767;
+    -fx-background-radius: 2;
+    -fx-text-fill: #ffffff;
+}

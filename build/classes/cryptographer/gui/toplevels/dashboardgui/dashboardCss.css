@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 30, 2020, 1:52:31 AM
+    Author     : PC
+*/
+
+.scroll-bar {
+    -fx-background-color: transparent;
+    -fx-padding: 1 0 1 0;
+}
+
+.increment-button,
+.decrement-button,
+.thumb {
+    -fx-background-color: #2D2D2D;
+    -fx-padding: 4;
+}
+
+.increment-button:hover,
+.decrement-button:hover,
+.thumb:hover {
+    -fx-background-color: #555555;
+}
+
+.increment-button:pressed,
+.decrement-button:pressed,
+.thumb:pressed {
+    -fx-background-color: #555555;
+}
+
+.thumb {
+    -fx-background-radius: 0;
+}
+
+.scroll-bar:horizontal .increment-button {
+    -fx-background-radius: 0 3 3 0;
+}
+
+.scroll-bar:horizontal .decrement-button {
+    -fx-background-radius: 3 0 0 3;
+}
+
+.scroll-bar:vertical .increment-button {
+    -fx-background-radius: 0 0 3 3;
+}
+
+.scroll-bar:vertical .decrement-button {
+    -fx-background-radius: 3 3 0 0;
+}
+
+.button {
+    -fx-background-color: #676767;
+    -fx-font-weight: bold;
+    -fx-font-family: system-ui;
+    -fx-text-fill: #AED3DB;
+}
+
+.button:hover {
+    -fx-background-color: #7E7E7E;
+}
+
+.button:pressed {
+    -fx-background-color: #ACACAC;
+}
+
+.button:focused {
+    -fx-background-insets: 0 0 -1 0;
+}
+
+.main-window {
+    -fx-background-color: #757575;
+    -fx-border-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.label {
+    -fx-font-weight: bold;
+    -fx-font-family: system-ui;
+}
+
+.close {
+    -fx-padding: 0;
+    -fx-background-radius: 10;
+}
+
+.top-decoration {
+    -fx-background-color: #393939;
+    -fx-padding: 4 4 4 10;
+    -fx-alignment: CENTER;
+}
+
+.top-decoration .label {
+    -fx-text-fill: #C1C1C1;
+}

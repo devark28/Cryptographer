@@ -1,0 +1,4 @@
+-(name:binaries)-(display:Binaries)-(version:v1)-(preview:true)[def]
+-(name:hexadecimal)-(display:Hexadecimal)-(version:v1)-(preview:true)
+-(name:inversion)-(display:Inversion)-(version:v1)-(preview:true)
+-(name:graphcodes)-(display:Graph Codes)-(version:v1)-(preview:true)

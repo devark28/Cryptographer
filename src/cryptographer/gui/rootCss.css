@@ -1,0 +1,235 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 18, 2020, 2:01:20 AM
+    Author     : PC
+*/
+/*#C1C1C1*/
+.label {
+    -fx-font-weight: bold;
+    -fx-font-family: system-ui;
+}
+
+.button {
+    -fx-background-color: #464646;
+    -fx-font-weight: bold;
+    -fx-font-family: system-ui;
+    -fx-text-fill: #C1C1C1;
+}
+
+.button:hover {
+    -fx-background-color: #7E7E7E;
+}
+
+.button:pressed {
+    -fx-background-color: #ACACAC;
+}
+
+.button:focused {
+    -fx-background-insets: 0 0 -1 0;
+}
+
+.root {
+    -fx-background-color: #757575;
+    -fx-border-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.top-head {
+    -fx-background-color: #333333;
+    -fx-padding: 2 2 3 2;
+}
+.top-head .button {
+    -fx-padding: 4;
+    -fx-text-fill: #C1C1C1;
+}
+
+.top-head .label {
+    -fx-text-fill: #C1C1C1;
+}
+
+.tools {
+    -fx-padding: 2;
+    -fx-background-color: transparent;
+}
+
+.tooltip {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+}
+
+.popup {
+    -fx-background-color: #232323;
+    -fx-background-radius: 5;
+}
+
+.tool-bar {
+    -fx-padding: 3 3 10 3;
+    -fx-background-color: #666666;
+    -fx-spacing: 10;
+}
+
+.text-area {
+    -fx-background-insets: 1;
+    -fx-wrap-text: true;
+}
+
+.text-area .content {
+    -fx-background-color: #B2B2B2;
+}
+
+.text-area .scroll-pane .scroll-bar:horizontal {
+    -fx-background-color: #6D6D6D;
+    -fx-padding: 0 1 0 1;
+    -fx-background-radius: 0;
+    -fx-background-insets: -2;
+}
+
+.table-view {
+    -fx-background-insets: -0.1;
+    -fx-background-color: #393939;
+}
+
+.text-area .scroll-pane .scroll-bar:horizontal,
+.table-view .scroll-bar:horizontal {
+    -fx-background-color: #6D6D6D;
+    -fx-padding: 0 1 0 1;
+    -fx-background-radius: 0;
+    -fx-background-insets: -2;
+}
+
+
+.text-area .scroll-pane .scroll-bar:vertical {
+    -fx-background-insets: -2;
+}
+
+.text-area .scroll-pane .scroll-bar:vertical,
+.table-view .scroll-bar:vertical {
+    -fx-background-color: #6D6D6D;
+    -fx-padding: 0 1 0 1;
+    -fx-background-radius: 0;
+}
+
+.text-area .scroll-pane .corner,
+.table-view .corner {
+    -fx-background-color: #6D6D6D;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0 0 -2 0;
+}
+
+.text-area .scroll-pane .increment-button,
+.text-area .scroll-pane .decrement-button,
+.text-area .scroll-pane .thumb,
+.table-view .increment-button,
+.table-view .decrement-button,
+.table-view .thumb {
+    -fx-background-color: #2D2D2D;
+    -fx-padding: 4;
+}
+
+.text-area .scroll-pane .scroll-bar:horizontal .increment-button,
+.table-view .scroll-bar:horizontal .increment-button {
+    -fx-background-radius: 0 3 3 0;
+}
+
+.text-area .scroll-pane .scroll-bar:horizontal .decrement-button,
+.table-view .scroll-bar:horizontal .decrement-button {
+    -fx-background-radius: 3 0 0 3;
+}
+
+.text-area .scroll-pane .scroll-bar:vertical .increment-button,
+.table-view .scroll-bar:vertical .increment-button {
+    -fx-background-radius: 0 0 3 3;
+}
+
+.text-area .scroll-pane .scroll-bar:vertical .decrement-button,
+.table-view .scroll-bar:vertical .decrement-button {
+    -fx-background-radius: 3 3 0 0;
+}
+
+.text-area .scroll-pane .thumb,
+.table-view .thumb {
+    -fx-background-radius: 0;
+}
+
+.text-area .scroll-pane .increment-button:hover,
+.text-area .scroll-pane .decrement-button:hover,
+.text-area .scroll-pane .thumb:hover,
+.table-view .increment-button:hover,
+.table-view .decrement-button:hover,
+.table-view .thumb:hover {
+    -fx-background-color: #464646;
+    -fx-background-radius: 3;
+}
+
+.text-area .scroll-pane .increment-button:pressed,
+.text-area .scroll-pane .decrement-button:pressed,
+.text-area .scroll-pane .thumb:pressed,
+.table-view .increment-button:pressed,
+.table-view .decrement-button:pressed,
+.table-view .thumb:pressed {
+    -fx-background-color: #919191;
+    -fx-background-radius: 3;
+}
+
+.table-view .table-row-cell:selected,
+.table-view .table-row-cell:selected .cell {
+    -fx-background-color: #6D6D6D;
+    -fx-text-fill: #ffffff;
+}
+
+.table-view .table-column {
+    -fx-background-color: #828282;
+    -fx-border-width: 0 0.1 0 0.1;
+    -fx-border-color: #393939;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #C1C1C1;
+    -fx-background-color: #6D6D6D;
+}
+
+.table-view .column-header,
+.table-view .column-header-background {
+    -fx-background-color: #6D6D6D;
+}
+
+.pop-up {
+    -fx-background-color: #828282;
+    -fx-padding: 5;
+    -fx-min-width: 200;
+    -fx-background-insets: 0 -2 -2 0;
+}
+
+.pop-up .menu-item,
+.pop-up .menu-item .label {
+    -fx-background-color: #828282;
+    -fx-text-fill: #C1C1C1;
+}
+
+.pop-up .menu-item:hover,
+.pop-up .menu-item:hover .label {
+    -fx-background-color: #6D6D6D;
+    -fx-text-fill: #ffffff;
+}
+
+/*close request dialog*/
+.dialog-pane:header .header-panel {
+    -fx-background-color: #B2B2B2;
+}
+
+.dialog-pane .button:focused {
+    -fx-background-color: #464646;
+    -fx-border-width: 0 0 2 0;
+    -fx-border-radius: 2;
+    -fx-border-insets: 0 -0.5 -1 0.5;
+    -fx-border-color: #C1C1C1;
+}
+
+.dialog-pane .button {
+    -fx-background-color: #7E7E7E;
+}

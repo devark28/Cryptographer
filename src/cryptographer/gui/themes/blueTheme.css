@@ -1,0 +1,335 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 20, 2020, 12:30:02 PM
+    Author     : PC
+*/
+
+/* new Color(0, 26, 54) */
+
+/* dashboard-gui styles */
+.dashboard-gui .scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.dashboard-gui .increment-button,
+.dashboard-gui .decrement-button,
+.dashboard-gui .thumb {
+    -fx-background-color: #120AB6;
+}
+
+.dashboard-gui .increment-button:hover,
+.dashboard-gui .decrement-button:hover,
+.dashboard-gui .thumb:hover {
+    -fx-background-color: #6C99C9;
+}
+
+.dashboard-gui .increment-button:pressed,
+.dashboard-gui .decrement-button:pressed,
+.dashboard-gui .thumb:pressed {
+    -fx-background-color: #6C99C9;
+}
+
+.dashboard-gui .button {
+    -fx-background-color: #0054AD;
+    -fx-text-fill: #AED3DB;
+}
+
+.dashboard-gui .button:hover {
+    -fx-background-color: #0454FF;
+}
+
+.dashboard-gui .button:pressed {
+    -fx-background-color: #268FFF;
+}
+
+.dashboard-gui {
+    -fx-background-color: #4558B4;
+    -fx-border-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.dashboard-gui .top-decoration {
+    -fx-background-color: #003670;
+}
+
+.dashboard-gui .top-decoration .label {
+    -fx-text-fill: #AED3DB;
+}
+
+/* settings-gui styles */
+.settings-gui .title-container .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #AED3DB;
+}
+
+.settings-gui .title-container .list-cell:selected {
+    -fx-background-color: #4558B4;
+    -fx-text-fill: #ffffff;
+}
+
+.settings-gui .list-view {
+    -fx-background-color: transparent;
+}
+
+.settings-gui .list-cell {
+    -fx-background-color: #1A73D2;
+    -fx-text-fill: #AED3DB;
+}
+
+.settings-gui .list-cell:selected {
+    -fx-background-color: #4558B4;
+    -fx-text-fill: #ffffff;
+}
+
+.settings-gui .list-cell:hover {
+    -fx-background-color: #4558B4;
+    -fx-text-fill: #ffffff;
+}
+
+.settings-gui .title-container {
+    -fx-background-color: #1A73D2;
+}
+
+.settings-gui .scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.settings-gui .list-book .scroll-bar {
+    -fx-background-color: #0000D5;
+}
+
+.settings-gui .increment-button,
+.settings-gui .decrement-button,
+.settings-gui .thumb {
+    -fx-background-color: #120AB6;
+}
+
+.settings-gui .increment-button:hover,
+.settings-gui .decrement-button:hover,
+.settings-gui .thumb:hover {
+    -fx-background-color: #6C99C9;
+}
+
+.settings-gui .increment-button:pressed,
+.settings-gui .decrement-button:pressed,
+.settings-gui .thumb:pressed {
+    -fx-background-color: #6C99C9;
+}
+
+.settings-gui .title-container .scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.settings-gui .page-container {
+    -fx-background-color: #5BA8E5;
+}
+
+.settings-gui .page-container .viewport {
+    -fx-background-color: transparent;
+}
+
+.settings-gui .button {
+    -fx-background-color: #0054AD;
+    -fx-text-fill: #AED3DB;
+}
+
+.settings-gui .button:hover {
+    -fx-background-color: #0454FF;
+}
+
+.settings-gui .button:pressed {
+    -fx-background-color: #268FFF;
+}
+
+.settings-gui,
+.settings-gui .list-book {
+    -fx-background-color: #4558B4;
+    -fx-border-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.settings-gui .top-decoration {
+    -fx-background-color: #003670;
+}
+
+.settings-gui .top-decoration .label {
+    -fx-text-fill: #AED3DB;
+}
+
+.settings-gui .bottom-buttons {
+    -fx-background-color: transparent;
+}
+
+.settings-gui .combo-box {
+    -fx-background-color: #0054AD;
+}
+
+.settings-gui .slide-switch-view {
+    -fx-background-color: #4558B4;
+}
+
+.settings-gui .slide-switch-view .slider {
+    -fx-background-color: #0054AD;
+    -fx-text-fill: #ffffff;
+}
+
+/* .close-confirmation, .cryptographer-gui styles */
+.close-confirmation .button,
+.cryptographer-gui .button {
+    -fx-background-color: #0054AD;
+    -fx-text-fill: #AED3DB;
+}
+
+.close-confirmation .button:hover,
+.cryptographer-gui .button:hover {
+    -fx-background-color: #0454FF;
+}
+
+.close-confirmation .button:pressed,
+.cryptographer-gui .button:pressed {
+    -fx-background-color: #268FFF;
+}
+
+.close-confirmation .root,
+.cryptographer-gui .root {
+    -fx-background-color: #4558B4;
+    -fx-border-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+/* .cryptographer-gui styles */
+.cryptographer-gui .top-head {
+    -fx-background-color: #003670;
+}
+
+.cryptographer-gui .top-head .button {
+    -fx-text-fill: #AED3DB;
+}
+
+.cryptographer-gui .top-head .label {
+    -fx-text-fill: #AED3DB;
+}
+
+.cryptographer-gui .tools {
+    -fx-background-color: transparent;
+}
+
+.cryptographer-gui .tooltip {
+    -fx-background-color: transparent;
+}
+
+.cryptographer-gui .popup {
+    -fx-background-color: #2E3FC3;
+}
+
+.cryptographer-gui .tool-bar {
+    -fx-background-color: #4C86C2;
+}
+
+.cryptographer-gui .text-area .content {
+    -fx-background-color: #5BA8E5;
+}
+
+.cryptographer-gui .text-area .scroll-pane .scroll-bar:horizontal {
+    -fx-background-color: #4558B4;
+}
+
+.cryptographer-gui .table-view {
+    -fx-background-color: #003670;
+}
+
+.cryptographer-gui .text-area .scroll-pane .scroll-bar:horizontal,
+.cryptographer-gui .table-view .scroll-bar:horizontal {
+    -fx-background-color: #4558B4;
+}
+
+.cryptographer-gui .text-area .scroll-pane .scroll-bar:vertical,
+.cryptographer-gui .table-view .scroll-bar:vertical {
+    -fx-background-color: #4558B4;
+}
+
+.cryptographer-gui .text-area .scroll-pane .corner,
+.cryptographer-gui .table-view .corner {
+    -fx-background-color: #4558B4;
+}
+
+.cryptographer-gui .text-area .scroll-pane .increment-button,
+.cryptographer-gui .text-area .scroll-pane .decrement-button,
+.cryptographer-gui .text-area .scroll-pane .thumb,
+.cryptographer-gui .table-view .increment-button,
+.cryptographer-gui .table-view .decrement-button,
+.cryptographer-gui .table-view .thumb {
+    -fx-background-color: #120AB6;
+}
+
+.cryptographer-gui .text-area .scroll-pane .increment-button:hover,
+.cryptographer-gui .text-area .scroll-pane .decrement-button:hover,
+.cryptographer-gui .text-area .scroll-pane .thumb:hover,
+.cryptographer-gui .table-view .increment-button:hover,
+.cryptographer-gui .table-view .decrement-button:hover,
+.cryptographer-gui .table-view .thumb:hover {
+    -fx-background-color: #0054AD;
+}
+
+.cryptographer-gui .text-area .scroll-pane .increment-button:pressed,
+.cryptographer-gui .text-area .scroll-pane .decrement-button:pressed,
+.cryptographer-gui .text-area .scroll-pane .thumb:pressed,
+.cryptographer-gui .table-view .increment-button:pressed,
+.cryptographer-gui .table-view .decrement-button:pressed,
+.cryptographer-gui .table-view .thumb:pressed {
+    -fx-background-color: #6C99C9;
+}
+
+.cryptographer-gui .table-view .table-row-cell:selected,
+.cryptographer-gui .table-view .table-row-cell:selected .cell {
+    -fx-background-color: #4558B4;
+    -fx-text-fill: #ffffff;
+}
+
+.cryptographer-gui .table-view .table-column {
+    -fx-background-color: #1A73D2;
+    -fx-border-color: #003670;
+}
+
+.cryptographer-gui .table-view .column-header .label {
+    -fx-text-fill: #AED3DB;
+    -fx-background-color: #4558B4;
+}
+
+.cryptographer-gui .table-view .column-header,
+.cryptographer-gui .table-view .column-header-background {
+    -fx-background-color: #4558B4;
+}
+
+.cryptographer-gui .pop-up {
+    -fx-background-color: #1A73D2;
+}
+
+.cryptographer-gui .pop-up .menu-item,
+.cryptographer-gui .pop-up .menu-item .label {
+    -fx-background-color: #1A73D2;
+    -fx-text-fill: #AED3DB;
+}
+
+.cryptographer-gui .pop-up .menu-item:hover,
+.cryptographer-gui .pop-up .menu-item:hover .label {
+    -fx-background-color: #4558B4;
+    -fx-text-fill: #ffffff;
+}
+
+/* .close-confirmation styles */
+.close-confirmation:header .header-panel {
+    -fx-background-color: #5BA8E5;
+}
+
+.close-confirmation .button:focused {
+    -fx-background-color: #0454FF;
+    -fx-border-color: #AED3DB;
+}

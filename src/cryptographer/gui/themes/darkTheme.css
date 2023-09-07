@@ -1,0 +1,342 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 20, 2020, 12:30:42 PM
+    Author     : PC
+*/
+
+/* new Color(18, 18, 18) */
+
+/* dashboard-gui styles */
+.dashboard-gui .scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.dashboard-gui .increment-button,
+.dashboard-gui .decrement-button,
+.dashboard-gui .thumb {
+    -fx-background-color: #2D2D2D;
+}
+
+.dashboard-gui .increment-button:hover,
+.dashboard-gui .decrement-button:hover,
+.dashboard-gui .thumb:hover {
+    -fx-background-color: #555555;
+}
+
+.dashboard-gui .increment-button:pressed,
+.dashboard-gui .decrement-button:pressed,
+.dashboard-gui .thumb:pressed {
+    -fx-background-color: #555555;
+}
+
+.dashboard-gui .button {
+    -fx-background-color: #676767;
+    -fx-text-fill: #AED3DB;
+}
+
+.dashboard-gui .button:hover {
+    -fx-background-color: #7E7E7E;
+}
+
+.dashboard-gui .button:pressed {
+    -fx-background-color: #ACACAC;
+}
+
+.dashboard-gui {
+    -fx-background-color: #757575;
+    -fx-border-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.dashboard-gui .top-decoration {
+    -fx-background-color: #393939;
+}
+
+.dashboard-gui .top-decoration .label {
+    -fx-text-fill: #C1C1C1;
+}
+
+/* settings-gui styles */
+.settings-gui .title-container .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #C1C1C1;
+}
+
+.settings-gui .title-container .list-cell:selected {
+    -fx-background-color: #9B9B9B;
+    -fx-text-fill: #ffffff;
+}
+
+.settings-gui .list-view {
+    -fx-background-color: transparent;
+}
+
+.settings-gui .list-cell {
+    -fx-background-color: #828282;
+    -fx-text-fill: #C1C1C1;
+}
+
+.settings-gui .list-cell:selected {
+    -fx-background-color: #9B9B9B;
+    -fx-text-fill: #ffffff;
+}
+
+.settings-gui .list-cell:hover {
+    -fx-background-color: #9B9B9B;
+    -fx-text-fill: #ffffff;
+}
+
+.settings-gui .title-container {
+    -fx-background-color: #828282;
+}
+
+.settings-gui .scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.settings-gui .list-book .scroll-bar {
+    -fx-background-color: #6D6D6D;
+}
+
+.settings-gui .increment-button,
+.settings-gui .decrement-button,
+.settings-gui .thumb {
+    -fx-background-color: #2D2D2D;
+}
+
+.settings-gui .increment-button:hover,
+.settings-gui .decrement-button:hover,
+.settings-gui .thumb:hover {
+    -fx-background-color: #555555;
+}
+
+.settings-gui .increment-button:pressed,
+.settings-gui .decrement-button:pressed,
+.settings-gui .thumb:pressed {
+    -fx-background-color: #919191;
+}
+
+.settings-gui .title-container .scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.settings-gui .page-container {
+    -fx-background-color: #C1C1C1;
+}
+
+.settings-gui .page-container .viewport {
+    -fx-background-color: transparent;
+}
+
+.settings-gui .button {
+    -fx-background-color: #676767;
+    -fx-text-fill: #AED3DB;
+}
+
+.settings-gui .button:hover {
+    -fx-background-color: #7E7E7E;
+}
+
+.settings-gui .button:pressed {
+    -fx-background-color: #ACACAC;
+}
+
+.settings-gui,
+.settings-gui .list-book {
+    -fx-background-color: #9B9B9B;
+    -fx-border-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.settings-gui .top-decoration {
+    -fx-background-color: #393939;
+}
+
+.settings-gui .top-decoration .label {
+    -fx-text-fill: #C1C1C1;
+}
+
+.settings-gui .bottom-buttons {
+    -fx-background-color: transparent;
+}
+
+.settings-gui .combo-box {
+    -fx-background-color: #676767;
+}
+
+.settings-gui .slide-switch-view {
+    -fx-background-color: #9B9B9B;
+}
+
+.settings-gui .slide-switch-view .slider {
+    -fx-background-color: #676767;
+    -fx-text-fill: #ffffff;
+}
+
+/* .close-confirmation, .cryptographer-gui styles */
+.close-confirmation .button,
+.cryptographer-gui .button {
+    -fx-text-fill: #AED3DB;
+}
+
+.close-confirmation .button:hover,
+.cryptographer-gui .button:hover {
+    -fx-background-color: #7E7E7E;
+}
+
+.close-confirmation .button:pressed,
+.cryptographer-gui .button:pressed {
+    -fx-background-color: #ACACAC;
+}
+
+.close-confirmation .root,
+.cryptographer-gui .root {
+    -fx-background-color: #757575;
+    -fx-border-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+/* .cryptographer-gui styles */
+.cryptographer-gui .button {
+    -fx-background-color: #464646;
+}
+
+.cryptographer-gui .top-head {
+    -fx-background-color: #333333;
+}
+
+.cryptographer-gui .top-head .button {
+    -fx-text-fill: #C1C1C1;
+}
+
+.cryptographer-gui .top-head .label {
+    -fx-text-fill: #C1C1C1;
+}
+
+.cryptographer-gui .tools {
+    -fx-background-color: transparent;
+}
+
+.cryptographer-gui .tooltip {
+    -fx-background-color: transparent;
+}
+
+.cryptographer-gui .popup {
+    -fx-background-color: #232323;
+}
+
+.cryptographer-gui .tool-bar {
+    -fx-background-color: #666666;
+}
+
+.cryptographer-gui .text-area .content {
+    -fx-background-color: #B2B2B2;
+}
+
+.cryptographer-gui .text-area .scroll-pane .scroll-bar:horizontal {
+    -fx-background-color: #6D6D6D;
+}
+
+.cryptographer-gui .table-view {
+    -fx-background-color: #393939;
+}
+
+.cryptographer-gui .text-area .scroll-pane .scroll-bar:horizontal,
+.cryptographer-gui .table-view .scroll-bar:horizontal {
+    -fx-background-color: #6D6D6D;
+}
+
+.cryptographer-gui .text-area .scroll-pane .scroll-bar:vertical,
+.cryptographer-gui .table-view .scroll-bar:vertical {
+    -fx-background-color: #6D6D6D;
+}
+
+.cryptographer-gui .text-area .scroll-pane .corner,
+.cryptographer-gui .table-view .corner {
+    -fx-background-color: #6D6D6D;
+}
+
+.cryptographer-gui .text-area .scroll-pane .increment-button,
+.cryptographer-gui .text-area .scroll-pane .decrement-button,
+.cryptographer-gui .text-area .scroll-pane .thumb,
+.cryptographer-gui .table-view .increment-button,
+.cryptographer-gui .table-view .decrement-button,
+.cryptographer-gui .table-view .thumb {
+    -fx-background-color: #2D2D2D;
+}
+
+.cryptographer-gui .text-area .scroll-pane .increment-button:hover,
+.cryptographer-gui .text-area .scroll-pane .decrement-button:hover,
+.cryptographer-gui .text-area .scroll-pane .thumb:hover,
+.cryptographer-gui .table-view .increment-button:hover,
+.cryptographer-gui .table-view .decrement-button:hover,
+.cryptographer-gui .table-view .thumb:hover {
+    -fx-background-color: #464646;
+}
+
+.cryptographer-gui .text-area .scroll-pane .increment-button:pressed,
+.cryptographer-gui .text-area .scroll-pane .decrement-button:pressed,
+.cryptographer-gui .text-area .scroll-pane .thumb:pressed,
+.cryptographer-gui .table-view .increment-button:pressed,
+.cryptographer-gui .table-view .decrement-button:pressed,
+.cryptographer-gui .table-view .thumb:pressed {
+    -fx-background-color: #919191;
+}
+
+.cryptographer-gui .table-view .table-row-cell:selected,
+.cryptographer-gui .table-view .table-row-cell:selected .cell {
+    -fx-background-color: #6D6D6D;
+    -fx-text-fill: #ffffff;
+}
+
+.cryptographer-gui .table-view .table-column {
+    -fx-background-color: #828282;
+    -fx-border-color: #393939;
+}
+
+.cryptographer-gui .table-view .column-header .label {
+    -fx-text-fill: #C1C1C1;
+    -fx-background-color: #6D6D6D;
+}
+
+.cryptographer-gui .table-view .column-header,
+.cryptographer-gui .table-view .column-header-background {
+    -fx-background-color: #6D6D6D;
+}
+
+.cryptographer-gui .pop-up {
+    -fx-background-color: #828282;
+}
+
+.cryptographer-gui .pop-up .menu-item,
+.cryptographer-gui .pop-up .menu-item .label {
+    -fx-background-color: #828282;
+    -fx-text-fill: #C1C1C1;
+}
+
+.cryptographer-gui .pop-up .menu-item:hover,
+.cryptographer-gui .pop-up .menu-item:hover .label {
+    -fx-background-color: #6D6D6D;
+    -fx-text-fill: #ffffff;
+}
+
+/* .close-confirmation styles */
+.close-confirmation:header .header-panel {
+    -fx-background-color: #B2B2B2;
+}
+
+.close-confirmation .button:focused {
+    -fx-background-color: #464646;
+    -fx-border-color: #C1C1C1;
+}
+
+.close-confirmation .button {
+    -fx-background-color: #7E7E7E;
+}
